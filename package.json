@@ -1,0 +1,31 @@
+{
+  "name": "seiemens",
+  "version": "1.0.0",
+  "description": "adds a delay set by seiemens standards",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --presets babel-preset-env --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wadafacc/seiemens-js.git"
+  },
+  "keywords": [
+    "seiemens",
+    "delay",
+    "yeet",
+    "perle"
+  ],
+  "author": "Wadafacc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wadafacc/seiemens-js/issues"
+  },
+  "homepage": "https://github.com/Wadafacc/seiemens-js#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
