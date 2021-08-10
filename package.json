@@ -1,6 +1,6 @@
 {
   "name": "seiemens",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "E F F I C I E N C Y",
   "main": "./dist/index.js",
   "scripts": {
